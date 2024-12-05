@@ -13,13 +13,13 @@ function _update()
 		position_x+=1
 	end
 	if btn(⬅️) then
-		position_x+=1
+		position_x-=1
 	end
 		if btn(⬆️) then
 		position_y-=1
 	end
 	if btn(⬇️) then
-		position_y-=1
+		position_y+=1
 	end
 end
 
